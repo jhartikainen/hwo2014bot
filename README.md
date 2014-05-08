@@ -7,6 +7,8 @@ Final ranking in Europe and Africa region:
 - Qualifications round 1 - 11 out of 856
 - Qualifications round 2 - 78 out of 203
 
+The bot speed regulating algorithm and cornering speed algorithm was contributed by [spion](https://github.com/spion).
+
 ## Warnings etc.
 
 The code was written in a bit of a hurry, and was almost entirely experimental due to the nature
