@@ -1,0 +1,26 @@
+Name:                hwo2014bot
+Version:             0.1
+Synopsis:            HWO2014 Bot Template
+License:             BSD3
+License-file:        license.txt
+Author:              Reaktor
+Maintainer:          juha.paananen@reaktor.fi
+Category:            Game
+Build-type:          Simple
+Cabal-version:       >=1.2
+
+
+Executable hwo2014bot
+   ghc-options: -rtsopts -O2
+   Main-is: Main.hs
+   hs-source-dirs: .
+   Build-depends:
+      base >= 4 && < 5,
+      network,
+      aeson,
+      bytestring,
+      mtl ==2.1.*,
+      lens,
+      directory ==1.2.*,
+      containers ==0.5.*,
+      criterion
